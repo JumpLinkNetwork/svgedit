@@ -1,0 +1,27 @@
+{
+  "name": "svg-edit",
+  "version": "2.8.1",
+  "description": "SVG-edit is a fast, web-based, javascript-driven SVG drawing editor that works in any modern browser.",
+  "main": "index.js",
+  "repository": "git@github.com:JumpLinkNetwork/svgedit.git",
+  "author": "Narendra Sisodiya <narendra@narendrasisodiya.com>, Pavol Rusnak <stick@gk2.sk>, Jeff Schiller <codedread@gmail.com>, Vidar Hokstad <vidar.hokstad@gmail.com>, Alexis Deveria <adeveria@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "serve": "gulp serve"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-watch": "^5.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
