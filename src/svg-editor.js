@@ -4030,6 +4030,9 @@ TODOS
 			};
 
 			var PaintBox = function(container, type) {
+				if($(container).length <= 0) {
+					throw new Error('Can not found element: ' + container);
+				}
 				var paintColor, paintOpacity,
 					cur = curConfig[type === 'fill' ? 'initFill' : 'initStroke'];
 				// set up gradients to be used for the buttons

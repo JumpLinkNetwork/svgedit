@@ -51,8 +51,8 @@ svgEditor.setConfig({
 svgEditor.setConfig({
 	extensions: [
 		// 'ext-overview_window.js', 'ext-markers.js', 'ext-connector.js', 'ext-eyedropper.js', 'ext-shapes.js', 'ext-imagelib.js', 'ext-grid.js', 'ext-polygon.js', 'ext-star.js', 'ext-panning.js', 'ext-storage.js'
-	]
-	// , noDefaultExtensions: false, // noDefaultExtensions can only be meaningfully used in config.js or in the URL
+	],
+	noDefaultExtensions: true, // noDefaultExtensions can only be meaningfully used in config.js or in the URL
 });
 
 // OTHER CONFIG
@@ -78,7 +78,7 @@ svgEditor.setConfig({
 	// PATH CONFIGURATION
 	imgPath: 'assets/images/',
 	langPath: '../../src/locale/',
-	extPath: 'assets/extensions/',
+	// extPath: '../../src/extensions/',
 	jGraduatePath: 'assets/third-party/jgraduate/images/',
 	/*
 	Uncomment the following to allow at least same domain (embedded) access,
@@ -94,7 +94,7 @@ svgEditor.setConfig({
 	// gridColor: '#000',
 	// baseUnit: 'px',
 	// snappingStep: 10,
-	// showRulers: true,
+	showRulers: false,
 	// EXTENSION-RELATED (GRID)
 	// showGrid: false, // Set by ext-grid.js
 	// EXTENSION-RELATED (STORAGE)
